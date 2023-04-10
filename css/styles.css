@@ -1,0 +1,78 @@
+body{
+	background:
+	url("../images/mush.jpeg");
+	background-repeat: repeat;
+	background-size: auto;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+}
+
+.shru{
+	position: absolute;
+	width: 70px;
+	height: 50px;
+}
+
+
+.img1{
+	margin-top: 500px;
+	margin-left: 1110px;
+}
+ .spider{
+ 	margin-top: -50px;
+ 	animation: move;
+	position: relative;
+	animation-duration: 5s; 
+	animation-iteration-count: 10;	
+} 
+ 
+.img1:hover{background:  
+	url("../images/vis.jpeg");
+	rotate: 45deg;
+	}
+
+.div1{
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	position: relative;
+	margin-left: 500px;
+	margin-top: -200px;
+	border-radius: 100%;
+	animation: mymove;
+	position: relative;
+	animation-duration: 5s;
+	animation-iteration-count: 10;
+
+}
+
+.wit{
+	margin-left: 1000px;
+	margin-top: -400px;
+	animation: move2;
+	position: relative;
+	animation-duration: 5s;
+	animation-iteration-count: 10;
+}
+
+
+@keyframes move { 
+	0%   {left:0px; top:0px;}
+    100%  {left:500px; top:0px;}
+}
+
+@keyframes mymove {
+	0%   {top:0px; bottom:0px;}
+    100% {top: -600px; bottom:0px;}
+}
+
+@keyframes move2 {
+	0%   {right:0px; top:0px;}
+    100%  {right:500px; top:200px;}
+
+
+}
+
+  
